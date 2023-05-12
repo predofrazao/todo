@@ -1,0 +1,52 @@
+.inputContainer {
+  position: relative;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.875rem;
+  background: #f8f8f8;
+  border: 1px solid #ededed;
+  border-radius: 0.625rem;
+  box-shadow: 0 2px 5px rgba(82, 80, 75, 0.1);
+}
+
+.plusIcon {
+  background: #ededed;
+  padding: 0.625rem 0.625rem;
+  border-radius: 50%;
+}
+
+.input {
+  padding: 0;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  color: currentColor;
+}
+
+.input::placeholder {
+  color: currentColor;
+  opacity: 0.8;
+}
+
+.calendarButton {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.enterTip {
+  position: absolute;
+  right: -4.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-style: italic;
+  text-transform: uppercase;
+}

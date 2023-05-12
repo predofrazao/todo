@@ -1,0 +1,31 @@
+.todoMain {
+  padding: 0.625rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ededed;
+}
+
+.tasksList {
+  width: 100%;
+}
+
+.taskButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 1.25rem 1.875rem;
+  background: #fafafa;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  color: #52504b;
+  font-size: 1rem;
+}
+
+.taskCheck {
+  width: 30px;
+  height: 30px;
+  background: #ededed;
+  border-radius: 10px;
+}
